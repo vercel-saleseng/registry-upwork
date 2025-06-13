@@ -1,4 +1,4 @@
-import UpworkClientTopnav from "@/components/upwork/upwork-client-topnav";
+import UpworkClientTopnav from "@/components/upwork-client-topnav";
 
 export default function StarterPage() {
   return (

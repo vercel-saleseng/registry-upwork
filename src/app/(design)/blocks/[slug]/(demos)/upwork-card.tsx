@@ -1,4 +1,4 @@
-import FreelancerCard from "@/components/upwork/upwork-freelance-product-card";
+import FreelancerCard from "@/components/upwork-freelance-product-card";
 
 export const UpworkFreelanceProductCard = {
   name: "upwork-freelance-product-card",
