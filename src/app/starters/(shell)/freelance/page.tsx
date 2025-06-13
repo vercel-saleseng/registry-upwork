@@ -1,4 +1,4 @@
-import UpworkFreelanceTopnav from "@/components/upwork/upwork-freelance-topnav";
+import UpworkFreelanceTopnav from "@/components/upwork-freelance-topnav";
 
 export default function StarterPage() {
   return (
