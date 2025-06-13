@@ -11,15 +11,20 @@ const starters = [
     name: "blank",
   },
   {
-    title: "Dashboard",
-    name: "dashboard",
-    url: "/starters/dashboard",
+    title: "Freelance Dashboard",
+    name: "freelance",
+    url: "/starters/freelance",
   },
   {
-    title: "Store",
-    name: "store",
-    url: "/starters/store",
+    title: "Client Dashboard",
+    name: "client",
+    url: "/starters/client",
   },
+  // {
+  //   title: "Store",
+  //   name: "store",
+  //   url: "/starters/store",
+  // },
 ];
 
 export default function StartPage() {

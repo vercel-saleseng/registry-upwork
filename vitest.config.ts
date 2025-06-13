@@ -10,6 +10,9 @@ export default defineConfig({
     environment: "jsdom",
     exclude: ["node_modules", "e2e"],
     setupFiles: ["./vitest.setup.ts"],
+    coverage: {
+      provider: "v8",
+    },
   },
   resolve: {
     alias: {
