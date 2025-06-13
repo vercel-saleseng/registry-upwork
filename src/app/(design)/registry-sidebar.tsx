@@ -68,6 +68,10 @@ export const blockItems = [
   { name: "Login", path: "/blocks/login" },
   { name: "Promo", path: "/blocks/promo" },
   { name: "Product Grid", path: "/blocks/product-grid" },
+  {
+    name: "Freelance Product Card",
+    path: "/blocks/upwork-freelance-product-card",
+  },
 ];
 
 export const gettingStartedItems = [
@@ -101,13 +105,13 @@ export function RegistrySidebar() {
     if (searchTerm) {
       setFilteredComponents(
         componentItems.filter((item) =>
-          item.name.toLowerCase().includes(searchTerm.toLowerCase()),
-        ),
+          item.name.toLowerCase().includes(searchTerm.toLowerCase())
+        )
       );
       setFilteredBlocks(
         blockItems.filter((item) =>
-          item.name.toLowerCase().includes(searchTerm.toLowerCase()),
-        ),
+          item.name.toLowerCase().includes(searchTerm.toLowerCase())
+        )
       );
     } else {
       setFilteredComponents(componentItems);
@@ -119,7 +123,10 @@ export function RegistrySidebar() {
     <Sidebar collapsible="icon">
       <SidebarHeader className="border-b">
         <div className="flex items-center justify-between px-2 py-2">
-          <Link href="/" className="flex min-w-0 items-center gap-2">
+          <Link
+            href="/"
+            className="flex min-w-0 items-center justify-center gap-2 mx-auto"
+          >
             <RegistryLogo />
           </Link>
 
