@@ -60,7 +60,7 @@
       ],
       "files": [
         {
-          "path": "src/app/components/upwork-freelance-topnav.tsx",
+          "path": "src/components/upwork-freelance-topnav.tsx",
           "type": "registry:component",
           "target": "components/upwork-freelance-topnav.tsx"
         },
@@ -86,7 +86,7 @@
       ],
       "files": [
         {
-          "path": "src/app/components/upwork-client-topnav.tsx",
+          "path": "src/components/upwork-client-topnav.tsx",
           "type": "registry:component",
           "target": "components/upwork-client-topnav.tsx"
         },
@@ -252,7 +252,7 @@
       ],
       "files": [
         {
-          "path": "src/components/upwork/upwork-freelance-product-card.tsx",
+          "path": "src/components/upwork-freelance-product-card.tsx",
           "type": "registry:component"
         },
         {
