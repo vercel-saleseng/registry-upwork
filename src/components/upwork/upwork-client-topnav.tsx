@@ -97,6 +97,7 @@ export default function UpworkClientTopnav() {
       ],
       sections: [
         {
+          title: "Freelancer Management",
           items: [
             { title: "Find freelancers", href: "#" },
             { title: "Post a job", href: "#" },
@@ -190,7 +191,7 @@ export default function UpworkClientTopnav() {
                       {navItem.sections?.map((section, idx) => (
                         <React.Fragment key={idx}>
                           <Separator className="my-2" />
-                          {section.title && (
+                          {section?.title && (
                             <li className="text-xs font-semibold text-muted-foreground px-3 py-1">
                               {section.title}
                             </li>

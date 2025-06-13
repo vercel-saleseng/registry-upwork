@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Heart, MessageCircle, Star, Zap } from "lucide-react";
 
 interface FreelancerCardProps {
-  avatarUrl: string;
+  avatarUrl: string | undefined;
   name: string;
   location: string;
   jobSuccess: number;
