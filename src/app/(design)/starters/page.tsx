@@ -20,6 +20,11 @@ const starters = [
     name: "client",
     url: "/starters/client",
   },
+  {
+    title: "Client Homepage",
+    name: "client-homepage",
+    url: "/starters/client-homepage",
+  },
   // {
   //   title: "Store",
   //   name: "store",
