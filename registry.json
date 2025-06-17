@@ -84,6 +84,47 @@
       ]
     },
     {
+      "name": "client-homepage",
+      "type": "registry:block",
+      "title": "Client Homepage Starter",
+      "description": "A client homepage application with your brand themed components",
+      "registryDependencies": [
+        "https://registry-upwork.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "public/upwork-logo.svg",
+          "type": "registry:ui",
+          "target": "public/upwork-logo.svg"
+        },
+        {
+          "path": "src/components/upwork/client-topnav.tsx",
+          "type": "registry:component",
+          "target": "components/upwork/client-topnav.tsx"
+        },
+        {
+          "path": "src/components/upwork/freelance-table.tsx",
+          "type": "registry:component",
+          "target": "components/upwork/freelance-table.tsx"
+        },
+        {
+          "path": "src/components/upwork/freelance-card.tsx",
+          "type": "registry:component",
+          "target": "components/upwork/freelance-card.tsx"
+        },
+        {
+          "path": "src/app/starters/(shell)/v0-layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        },
+        {
+          "path": "src/app/starters/(shell)/client-homepage/page.tsx",
+          "type": "registry:page",
+          "target": "app/page.tsx"
+        }
+      ]
+    },
+    {
       "name": "client",
       "type": "registry:block",
       "title": "Client Starter",
