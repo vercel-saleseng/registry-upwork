@@ -67,11 +67,12 @@ export const blockItems = [
   { name: "Hero", path: "/blocks/hero" },
   { name: "Login", path: "/blocks/login" },
   { name: "Promo", path: "/blocks/promo" },
-  { name: "Product Grid", path: "/blocks/product-grid" },
+
   {
-    name: "Freelance Product Card",
-    path: "/blocks/upwork-freelance-product-card",
+    name: "Freelance Card",
+    path: "/blocks/freelance-card",
   },
+  { name: "Freelance Table", path: "/blocks/freelance-table" },
 ];
 
 export const gettingStartedItems = [
