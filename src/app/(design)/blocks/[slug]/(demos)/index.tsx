@@ -17,6 +17,6 @@ export const demos: { [name: string]: Block } = {
   hero,
   login,
   promo,
-  "upwork-freelance-product-card": UpworkFreelanceProductCard,
+  "freelance-card": UpworkFreelanceProductCard,
   "product-grid": productGrid,
 };
